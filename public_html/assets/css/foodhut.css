@@ -11678,7 +11678,7 @@ pre {
 @media (max-width: 800px) {
   .header .overlay {
     background: transparent;
-    background: url(../imgs/main.jpg) no-repeat center center fixed;
+    background: url(../imgs/blog-1.jpg) no-repeat center center fixed !important;
   }
   .header {
     background-position: left;
