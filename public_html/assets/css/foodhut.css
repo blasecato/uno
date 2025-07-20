@@ -11677,10 +11677,10 @@ pre {
 
 @media (max-width: 800px) {
   .header .overlay {
-    background: transparent;
-    background-image: url(../imgs/blog-1.jpg);
+    background: #21252954;
   }
-  .header {
+  .header .overlay {
+    background-image: url(../imgs/main.jpg) !important;
     background-position: left;
   }
 }
