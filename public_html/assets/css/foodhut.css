@@ -5452,7 +5452,18 @@ input[type="button"].btn-block {
   bottom: 50px;
   z-index: 3000;
 }
+.logo-banner {
+  display: none;
+}
 @media (max-width: 800px) {
+  .logo-banner {
+    display: unset;
+    width: 150px;
+    height: auto;
+  }
+  .title {
+    font-size: 50px;
+  }
   .absolute {
     position: fixed;
     right: 25px;
@@ -11662,6 +11673,12 @@ pre {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+}
+
+@media (max-width: 800px) {
+  .header .overlay {
+    background: #21252954;
+  }
 }
 
 .header-title {
