@@ -11679,6 +11679,9 @@ pre {
   .header .overlay {
     background: transparent;
   }
+  .header {
+    background-position: left;
+  }
 }
 
 .header-title {
